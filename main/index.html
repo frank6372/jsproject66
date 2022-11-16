@@ -1,50 +1,156 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-
     <!-- Example Code -->
-    
-    <nav class="navbar sticky-top bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Sticky top</a>
-        </div>
-      </nav>
-        <br>
-        <br>
-    <div class="row">
+<nav>
+  <div class="container-fluid">
+  <ul id="nav" class="row list-unstyled list-inline">
+    <li class="col-md-4">About Us</li>
+    <li class="col-md-4">Mission</li>
+    <li class="col-md-4">Contact</li>
+  </ul>
+    </div>
+</nav>
+    <br />
+    <br />
+    <div class="container-fluid">
       <div id="block1" class="col-md-8"><h1>Baker Drive</h1></div>
     </div>
-    <div class="row">
-        <div id="block2" class="col-md-4"><h2>make your order</h2></div>
-
+    <div class="container-fluid">
+      <div id="block2" class="col-md-4"><h2>make your order</h2></div>
     </div>
-        <br><br><br>
-        <div class="row">
-        <img id="bread" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOV9Izrf93_l_I52dMCc5LPCOjAQ9eC1jgw&usqp=CAU" class="img-fluid img-responsive rounded-3 col-md-6" alt="bread"/>
+    <br /><br /><br />
+    <div class="row">
+      <img
+        id="bread"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOV9Izrf93_l_I52dMCc5LPCOjAQ9eC1jgw&usqp=CAU"
+        class="img-fluid img-responsive rounded-3 col-md-6"
+        alt="bread"
+      />
+    </div>
+    <br /><br /><br /><br />
+    <h2>About Us</h2>
+
+    <p>
+      Baked goods have been around for thousands of years. The art of baking was
+      developed early during the Roman Empire. It was a highly famous art as
+      Roman citizens loved baked goods and demanded them frequently for
+      important occasions such as feasts and weddings.
+    </p>
+    <br />
+    <h2>Mission</h2>
+    <p>
+      This trend became common, and soon, baked products were sold in streets of
+      Rome, Germany, London, and more. A system of delivering baked goods to
+      households arose as the demand increased significantly.
+    </p>
+    <br />
+    <p>We decided to make the best baked goods for the whole world to enjoy.</p>
+    <br />
+    <br />
+    <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+      style="display: none"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+              Phone Number
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <br><br><br><br>
-          <h2>About Us</h2>
-          
-          <p>Baked goods have been around for thousands of years. The art of baking was developed early during the Roman Empire. It was a highly famous art as Roman citizens loved baked goods and demanded them frequently for important occasions such as feasts and weddings. </p><br>
-          <p>This trend became common, and soon, baked products were sold in streets of Rome, Germany, London, and more. A system of delivering baked goods to households arose as the demand increased significantly.</p><br>
-          <p>We decided to make the best baked goods for the whole world to enjoy.</p><br>
-          <br>
-          <p><small>© 2022 Baker Valley Canada, Inc. All rights reserved</small></p>
-          <nav class="navbar sticky-bottom bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><small>© 2022 Baker Valley Canada, Inc. All rights reserved</small></a>
-            </div>
-          </nav>
-   
+          <div class="modal-body">(949) 333-3333</div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle2"
+              data-bs-toggle="modal"
+            >
+              Email
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModalToggle2"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+      style="display: none"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
+              Email Adresse
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            bestbaker49387@hotmail.com
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle"
+              data-bs-toggle="modal"
+            >
+              Back to first
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      href="#exampleModalToggle"
+      role="button"
+      >Contact</a
+    >
+
+    <nav class="navbar sticky-bottom bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><small
+            >© 2022 Baker Valley Canada, Inc. All rights reserved</small
+          ></a
+        >
+      </div>
+    </nav>
+
     <!-- End Example Code -->
   </body>
 </html>
