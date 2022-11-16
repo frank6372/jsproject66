@@ -11,15 +11,16 @@
       href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Baker Valley</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
   </head>
   <body>
     <!-- Example Code -->
 <nav>
   <div class="container-fluid">
-  <ul id="nav" class="row list-unstyled list-inline">
+  <ul  id="nav" class="row list-unstyled list-inline sticky-top bg-dark">
     <li class="col-md-4">About Us</li>
     <li class="col-md-4">Mission</li>
     <li class="col-md-4">Contact</li>
@@ -64,7 +65,7 @@
     <br />
     <br />
     <div
-      class="modal fade"
+      class="modal fade "
       id="exampleModalToggle"
       aria-labelledby="exampleModalToggleLabel"
       tabindex="-1"
@@ -79,7 +80,7 @@
             </h1>
             <button
               type="button"
-              class="btn-close"
+              class="btn-close p-2 mb-2 bg-dark text-white"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
@@ -87,7 +88,7 @@
           <div class="modal-body">(949) 333-3333</div>
           <div class="modal-footer">
             <button
-              class="btn btn-primary"
+              class="btn p-2 mb-2 bg-dark text-white"
               data-bs-target="#exampleModalToggle2"
               data-bs-toggle="modal"
             >
@@ -113,7 +114,7 @@
             </h1>
             <button
               type="button"
-              class="btn-close"
+              class="btn-close p-3 mb-2 bg-dark text-white"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
@@ -123,24 +124,24 @@
           </div>
           <div class="modal-footer">
             <button
-              class="btn btn-primary"
+              class="btn p-3 mb-2 bg-dark text-white"
               data-bs-target="#exampleModalToggle"
               data-bs-toggle="modal"
             >
-              Back to first
+              Back to Phone number
             </button>
           </div>
         </div>
       </div>
     </div>
     <a
-      class="btn btn-primary"
+      class="btn p-3 mb-2 bg-dark text-white"
       data-bs-toggle="modal"
       href="#exampleModalToggle"
       role="button"
       >Contact</a
     >
-
+    <br><br><br>
     <nav class="navbar sticky-bottom bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"

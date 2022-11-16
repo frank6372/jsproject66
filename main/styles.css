@@ -1,3 +1,33 @@
 #block2, #block1 {
-    border: 1px solid black;
+   font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+}
+
+#nav {
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+li:hover {
+    color:#c5c9be;
+    font-size: larger;
+   
+}
+
+#nav {
+    background-color:#121211 ;
+}
+
+li{
+    color:blanchedalmond;
+}
+
+* {
+    color:#121211;
+}
+
+h1, h2 {
+    text-shadow: 3px 3px 2px rgba(48, 48, 48, 1);
 }
