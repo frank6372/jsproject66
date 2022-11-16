@@ -13,6 +13,7 @@
 li:hover {
     color:#c5c9be;
     font-size: larger;
+    
    
 }
 
@@ -22,12 +23,25 @@ li:hover {
 
 li{
     color:blanchedalmond;
+    cursor: pointer;
 }
 
 * {
     color:#121211;
+    text-align: center;
 }
 
 h1, h2 {
     text-shadow: 3px 3px 2px rgba(48, 48, 48, 1);
+}
+
+img {
+   display:flex;
+    justify-content: space-around;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+p {
+    text-align: center;
 }
